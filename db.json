@@ -1,0 +1,37 @@
+{
+  "habits": [
+    {
+      "id": 1,
+      "name": "Drink Water",
+      "description": "8 glasses per day",
+      "frequency": "daily",
+      "streak": 3,
+      "completedDates": [
+        "2025-08-25",
+        "2025-08-26",
+        "2025-08-27"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Read 20 minutes",
+      "description": "Non-fiction preferred",
+      "frequency": "daily",
+      "streak": 2,
+      "completedDates": [
+        "2025-08-26",
+        "2025-08-27"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Workout",
+      "description": "Gym or home workout",
+      "frequency": "weekly",
+      "streak": 1,
+      "completedDates": [
+        "2025-08-21"
+      ]
+    }
+  ]
+}
