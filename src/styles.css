@@ -35,17 +35,20 @@ nav a:hover {
 h2 {
   margin-bottom: 16px;
 }
+
 form {
   display: flex;
   gap: 8px;
   margin-bottom: 20px;
 }
+
 input[type="text"] {
   flex: 1;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 button {
   background: #1976d2;
   color: white;
@@ -54,9 +57,11 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
 button:hover {
   background: #125a9c;
 }
+
 .habit-item {
   display: flex;
   justify-content: space-between;
