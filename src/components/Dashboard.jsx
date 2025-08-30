@@ -16,7 +16,7 @@ function Dashboard() {
 
   async function handleComplete(habit) {
     const today = new Date().toISOString().split("T")[0];
-    if (habit.completedDates?.includes(today)) return;
+    if (habit.completedDates?.includes(today)) return; // prevent double complete
 
     const updatedHabit = {
       ...habit,
@@ -36,11 +36,11 @@ function Dashboard() {
   }
 
   return (
-    <div className="container">
+    <div style={{ padding: "1rem" }}>
       <h2>Dashboard</h2>
 
       {/* Inline Add Form */}
-      <form onSubmit={handleAddHabit}>
+      <form onSubmit={handleAddHabit} style={{ marginBottom: "1rem" }}>
         <input
           type="text"
           value={newHabit}
@@ -50,12 +50,16 @@ function Dashboard() {
         <button type="submit">Add</button>
       </form>
 
-      {/* Habits List */}
       <ul>
         {habits.map((habit) => (
-          <li key={habit.id} className="habit-item">
-            <span>{habit.title}</span>
-            <button onClick={() => handleComplete(habit)}>Mark Complete</button>
+          <li key={habit.id} style={{ marginBottom: "0.5rem" }}>
+            {habit.title}
+            <button
+              onClick={() => handleComplete(habit)}
+              style={{ marginLeft: "1rem" }}
+            >
+              Mark Complete
+            </button>
           </li>
         ))}
       </ul>
