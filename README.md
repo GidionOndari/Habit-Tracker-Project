@@ -1,4 +1,4 @@
-Habit Tracker – Phase 1 + 2
+Habit Tracker
 ===========================
 Includes:
 - Dashboard (list + mark complete)

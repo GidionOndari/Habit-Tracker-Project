@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
-import Dashboard from "./components/Dashboard";
-import AddHabit from "./components/AddHabit";
-import NotFound from "./components/NotFound";
+import Dashboard from "./pages/Dashboard";
+import AddHabit from "./pages/AddHabit";
+import NotFound from "./pages/NotFound";
 import "./styles.css";
 
 function App() {

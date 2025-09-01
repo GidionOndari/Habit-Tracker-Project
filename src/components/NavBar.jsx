@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-function NavBar() {
+export default function NavBar() {
   return (
-    <nav>
-      <Link to="/">Dashboard</Link>
-      <Link to="/add">Add Habit</Link>
+    <nav className="navbar">
+      <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+        Dashboard
+      </NavLink>
+      <NavLink to="/add" className={({ isActive }) => (isActive ? "active" : "")}>
+        Add Habit
+      </NavLink>
+      <span className="brand">Habit Tracker</span>
     </nav>
   );
 }
-
-export default NavBar;
