@@ -36,7 +36,7 @@ export default function HabitForm({ onAdd, defaultValues }) {
         <option value="daily">Daily</option>
         <option value="weekly">Weekly</option>
       </select>
-      <button type="submit">➕ Add Habit</button>
+      <button type="submit"> Add Habit</button>
     </form>
   );
 }
