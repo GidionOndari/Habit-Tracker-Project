@@ -1,7 +1,7 @@
 {
   "habits": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Drink Water",
       "description": "8 glasses per day",
       "frequency": "daily",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Read 20 minutes",
       "description": "Non-fiction preferred",
       "frequency": "daily",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Workout",
       "description": "Gym or home workout",
       "frequency": "weekly",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Meditate",
       "description": "10 minutes of mindfulness",
       "frequency": "daily",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Journal",
       "description": "Write down thoughts and reflections",
       "frequency": "daily",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Learn a new skill",
       "description": "Spend 30 minutes learning",
       "frequency": "weekly",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Cook a healthy meal",
       "description": "Prepare a nutritious dish",
       "frequency": "weekly",
@@ -81,8 +81,8 @@
       ]
     },
     {
-      "id": 8,
-      "name": "Practice a hobby",
+      "id": "8",
+      "name": "Practice my hobby",
       "description": "Spend time on a favorite activity",
       "frequency": "weekly",
       "streak": 4,
@@ -91,6 +91,16 @@
         "2025-08-10",
         "2025-08-17",
         "2025-08-24"
+      ]
+    },
+    {
+      "id": "f6b4",
+      "name": "Binge Watching",
+      "description": "After school",
+      "frequency": "weekly",
+      "streak": 1,
+      "completedDates": [
+        "2025-09-02"
       ]
     }
   ]
