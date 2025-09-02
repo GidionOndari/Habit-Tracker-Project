@@ -66,7 +66,9 @@ With an intuitive dashboard, habit management tools, and progress tracking, Habi
 ---
 
 ## Screenshots
-![Dashboard](image.png)
+![Dashboard](<Screenshot 2025-09-02 at 4.49.25 PM.png>)
+![View Habit](<Screenshot 2025-09-02 at 4.51.08 PM.png>)
+![Edit Habit](<Screenshot 2025-09-02 at 4.51.18 PM.png>)
 ---
 
 ## Team Members
