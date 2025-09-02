@@ -32,6 +32,66 @@
       "completedDates": [
         "2025-08-21"
       ]
+    },
+    {
+      "id": 4,
+      "name": "Meditate",
+      "description": "10 minutes of mindfulness",
+      "frequency": "daily",
+      "streak": 5,
+      "completedDates": [
+        "2025-08-23",
+        "2025-08-24",
+        "2025-08-25",
+        "2025-08-26",
+        "2025-08-27"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Journal",
+      "description": "Write down thoughts and reflections",
+      "frequency": "daily",
+      "streak": 1,
+      "completedDates": [
+        "2025-08-27"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Learn a new skill",
+      "description": "Spend 30 minutes learning",
+      "frequency": "weekly",
+      "streak": 2,
+      "completedDates": [
+        "2025-08-15",
+        "2025-08-22"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cook a healthy meal",
+      "description": "Prepare a nutritious dish",
+      "frequency": "weekly",
+      "streak": 3,
+      "completedDates": [
+        "2025-08-10",
+        "2025-08-17",
+        "2025-08-24"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Practice a hobby",
+      "description": "Spend time on a favorite activity",
+      "frequency": "weekly",
+      "streak": 4,
+      "completedDates": [
+        "2025-08-03",
+        "2025-08-10",
+        "2025-08-17",
+        "2025-08-24"
+      ]
     }
   ]
 }
