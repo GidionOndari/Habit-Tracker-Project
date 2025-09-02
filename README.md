@@ -35,7 +35,7 @@ With an intuitive dashboard, habit management tools, and progress tracking, Habi
 ### Steps
 1. Clone this repo  
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/GidionOndari/Habit-Tracker-Project>
    cd habit-tracker
    ```
 
