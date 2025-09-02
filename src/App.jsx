@@ -1,21 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Dashboard from "./pages/Dashboard";
+import HabitPage from "./pages/HabitPage";
 import AddHabit from "./pages/AddHabit";
 import NotFound from "./pages/NotFound";
-import "./styles.css";
 
-function App() {
+export default function App() {
   return (
-    <Router>
+    <>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Dashboard />} />       {/* Dashboard page */}
-        <Route path="/add" element={<AddHabit />} />     {/* Add Habit page */}
-        <Route path="*" element={<NotFound />} />       {/* Catch-all 404 page */}
-      </Routes>
-    </Router>
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/add" element={<AddHabit />} />
+          <Route path="/habits/:id" element={<HabitPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </>
   );
 }
-
-export default App;
