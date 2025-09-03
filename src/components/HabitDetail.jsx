@@ -32,7 +32,9 @@ export default function HabitDetail({ habit, onUpdate }) {
             <option value="weekly">Weekly</option>
           </select>
           <div className="card-actions">
+
             <button onClick={handleSave}> Save</button>
+
             <button onClick={() => setEditing(false)}>Cancel</button>
           </div>
         </>
@@ -42,7 +44,9 @@ export default function HabitDetail({ habit, onUpdate }) {
           {habit.description && <p>{habit.description}</p>}
           <p><strong>Frequency:</strong> {habit.frequency}</p>
           <p><strong>Streak:</strong> {habit.streak || 0} days</p>
+
           <button onClick={() => setEditing(true)}> Edit</button>
+
         </>
       )}
     </div>

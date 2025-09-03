@@ -1,5 +1,14 @@
 # Habit Tracker
+Includes:
+- Dashboard (list + mark complete)
+- Add Habit form (inline on Dashboard + dedicated /add page)
+- NavBar with routes
+- Habit Detail Page (edit)
+- Delete habits
+- Search & Filter
+- db.json seed for json-server
 
+# Habit Tracker
 A modern, single-page web application designed to help individuals build, track, and maintain positive daily habits.  
 With an intuitive dashboard, habit management tools, and progress tracking, Habit Tracker makes it simple to stay accountable and motivated.
 
@@ -57,7 +66,9 @@ With an intuitive dashboard, habit management tools, and progress tracking, Habi
 ---
 
 ## Screenshots
-![Dashboard](image.png)
+![Dashboard](<Screenshot 2025-09-02 at 4.49.25 PM.png>)
+![View Habit](<Screenshot 2025-09-02 at 4.51.08 PM.png>)
+![Edit Habit](<Screenshot 2025-09-02 at 4.51.18 PM.png>)
 ---
 
 ## Team Members

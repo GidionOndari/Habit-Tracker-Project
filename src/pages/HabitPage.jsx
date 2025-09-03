@@ -10,6 +10,7 @@ export default function HabitPage() {
 
   useEffect(() => {
     getHabit(id) //fixed (no Number(id))
+
       .then(setHabit)
       .catch(() => setError("Habit not found"));
   }, [id]);

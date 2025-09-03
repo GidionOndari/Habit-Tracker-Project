@@ -85,7 +85,7 @@
     },
     {
       "id": "8",
-      "name": "Practice a hobby",
+      "name": "Practice my hobby",
       "description": "Spend time on a favorite activity",
       "frequency": "daily",
       "streak": 4,
@@ -97,12 +97,16 @@
       ]
     },
     {
-      "id": "53be",
-      "name": "Code",
-      "description": "Project a Day",
-      "frequency": "daily",
-      "streak": 0,
-      "completedDates": []
+
+      "id": "f6b4",
+      "name": "Binge Watching",
+      "description": "After school",
+      "frequency": "weekly",
+      "streak": 1,
+      "completedDates": [
+        "2025-09-02"
+      ]
+
     }
   ]
 }
