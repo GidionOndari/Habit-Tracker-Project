@@ -4,7 +4,7 @@
       "id": "1",
       "name": "Drink Water",
       "description": "8 glasses per day",
-      "frequency": "daily",
+      "frequency": "weekly",
       "streak": 3,
       "completedDates": [
         "2025-08-25",
@@ -97,7 +97,6 @@
       ]
     },
     {
-
       "id": "f6b4",
       "name": "Binge Watching",
       "description": "After school",
@@ -106,7 +105,6 @@
       "completedDates": [
         "2025-09-02"
       ]
-
     }
   ]
 }
