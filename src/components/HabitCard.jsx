@@ -9,8 +9,9 @@ export default function HabitCard({ habit, onComplete, onDelete }) {
       <p><strong>Streak:</strong> {habit.streak || 0} days</p>
 
       <div className="card-actions">
-        <button onClick={() => onComplete(habit)}>Mark Complete</button>
-        <button onClick={() => onDelete(habit.id)}>Delete</button>
+        <button onClick={() => onComplete(habit)}> Mark Complete</button>
+        <button onClick={() => onDelete(habit.id)}> Delete</button>
+
         <Link to={`/habits/${habit.id}`}>View</Link>
       </div>
     </div>

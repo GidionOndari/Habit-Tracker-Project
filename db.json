@@ -16,11 +16,13 @@
       "id": "2",
       "name": "Read 20 minutes",
       "description": "Non-fiction preferred",
-      "frequency": "daily",
-      "streak": 2,
+      "frequency": "weekly",
+      "streak": 4,
       "completedDates": [
         "2025-08-26",
-        "2025-08-27"
+        "2025-08-27",
+        "2025-09-01",
+        "2025-09-02"
       ]
     },
     {
@@ -52,9 +54,10 @@
       "name": "Journal",
       "description": "Write down thoughts and reflections",
       "frequency": "daily",
-      "streak": 1,
+      "streak": 2,
       "completedDates": [
-        "2025-08-27"
+        "2025-08-27",
+        "2025-09-03"
       ]
     },
     {
@@ -84,7 +87,7 @@
       "id": "8",
       "name": "Practice my hobby",
       "description": "Spend time on a favorite activity",
-      "frequency": "weekly",
+      "frequency": "daily",
       "streak": 4,
       "completedDates": [
         "2025-08-03",
@@ -94,6 +97,7 @@
       ]
     },
     {
+
       "id": "f6b4",
       "name": "Binge Watching",
       "description": "After school",
@@ -102,6 +106,7 @@
       "completedDates": [
         "2025-09-02"
       ]
+
     }
   ]
 }
