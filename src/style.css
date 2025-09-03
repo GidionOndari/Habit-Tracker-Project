@@ -102,7 +102,7 @@
  
   button {
     padding: 0.65rem 1.2rem;
-    background-color: #2136f3;
+    background-color: #11c423;
     border: none;
     border-radius: 10px;
     font-size: 0.95rem;
@@ -263,7 +263,7 @@
     color: #4caf50; /* primary green */
     text-align: center;
     margin: 1.5rem 0;
-    background: linear-gradient(90deg, #0a35df, #059355);
+    background: linear-gradient(90deg, #000000, #3b7272);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     letter-spacing: 1px;
