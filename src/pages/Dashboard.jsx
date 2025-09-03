@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { getHabits, addHabit, updateHabit, deleteHabit } from "../api";
+import HabitCard from "../components/HabitCard";
 import HabitForm from "../components/HabitForm";
 
 export default function Dashboard() {
@@ -43,7 +44,7 @@ export default function Dashboard() {
 
   return (
     <div>
-      <h1>Habit Tracker Dashboard</h1>
+      <h1>Habit Tracker</h1>
       <HabitForm onAdd={handleAdd} />
 
       <div className="filters">
@@ -59,7 +60,15 @@ export default function Dashboard() {
         </select>
       </div>
 
-     
+      {filtered.map(habit => (
+        <HabitCard
+          key={habit.id}
+          habit={habit}
+          onComplete={handleComplete}
+          onDelete={handleDelete}
+        />
+      ))}
+      {filtered.length === 0 && <p>No habits found.</p>}
     </div>
   );
 }

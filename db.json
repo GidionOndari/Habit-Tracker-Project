@@ -1,7 +1,7 @@
 {
   "habits": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Drink Water",
       "description": "8 glasses per day",
       "frequency": "daily",
@@ -13,18 +13,20 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Read 20 minutes",
       "description": "Non-fiction preferred",
-      "frequency": "daily",
-      "streak": 2,
+      "frequency": "weekly",
+      "streak": 4,
       "completedDates": [
         "2025-08-26",
-        "2025-08-27"
+        "2025-08-27",
+        "2025-09-01",
+        "2025-09-02"
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Workout",
       "description": "Gym or home workout",
       "frequency": "weekly",
@@ -34,7 +36,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Meditate",
       "description": "10 minutes of mindfulness",
       "frequency": "daily",
@@ -48,17 +50,18 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Journal",
       "description": "Write down thoughts and reflections",
       "frequency": "daily",
-      "streak": 1,
+      "streak": 2,
       "completedDates": [
-        "2025-08-27"
+        "2025-08-27",
+        "2025-09-03"
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Learn a new skill",
       "description": "Spend 30 minutes learning",
       "frequency": "weekly",
@@ -69,7 +72,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Cook a healthy meal",
       "description": "Prepare a nutritious dish",
       "frequency": "weekly",
@@ -81,10 +84,10 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Practice a hobby",
       "description": "Spend time on a favorite activity",
-      "frequency": "weekly",
+      "frequency": "daily",
       "streak": 4,
       "completedDates": [
         "2025-08-03",
@@ -92,6 +95,14 @@
         "2025-08-17",
         "2025-08-24"
       ]
+    },
+    {
+      "id": "53be",
+      "name": "Code",
+      "description": "Project a Day",
+      "frequency": "daily",
+      "streak": 0,
+      "completedDates": []
     }
   ]
 }
